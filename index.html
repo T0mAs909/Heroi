@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TheGames</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    
+    <section class="hero-page">
+        <nav class="navbar navbar-expand-lg">
+            <div div class="container px-5 mt-4">
+                <h1><a class="navbar-brand" href="#">TheGames</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comprar">Quero Comprar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <video class="hero-video" autoplay muted loop>
+            <source src="./videos/hero.mp4" type="video/mp4">
+        </video>
+
+        <div class="cta text-center text-light">
+            <h3 class="display-4 w-75 mx-auto">
+                Somos a melhor <span class="color-purple-400">loja</span> de <span class="color-blue-300">games</span> do Brasil
+            </h3>
+            <div class="cta-btn-group">
+                <div class="btn-link">
+                    <a href="">Mais Informações <span class="bi bi-info-circle ms-2"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid comprar d-flex" id="comprar">
+        <div class="row px-5 d-flex align-items-center justify-content-center">
+            <div class="col-lg-7 py-4 text-center my-4">
+                <h2 class="comprar-titulo">Quero Comprar</h2>
+                <p class="comprar-texto">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor iure accusamus laborum accusantium veniam.
+                </p>
+                <div class="cta-btn-group">
+                    <div class="btn-link">
+                        <a href="">Quero comprar agora <span class="bi bi-coin ms-2"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 text-center my-4">
+                <img src="./images/game-1.png" alt="Genede Gnoene" class="img-fluid comprar-imagem">
+            </div>
+        </div>
+    </section>
+    
+    <div class="container-fluid games text-light pt-5" id="games">
+        <h1 class="ms-5" id="nomeHeroi"></h1>
+        <h1 class="ms-5" id="forcaHeroi"></h1>
+        <h1 class="ms-5" id="velocidadeHeroi"></h1>
+        <h1 class="ms-5" id="inteligenciaHeroi"></h1>
+        <h1 class="ms-5" id="voarHeroi"></h1>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="./js/base.js"></script>
+
+</body>
+</html>
